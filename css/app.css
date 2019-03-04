@@ -465,7 +465,9 @@ th.showit table tbody tr th {
     height: 42px !important;
     margin: 0 5px; }
   .mobile-spacer {
-    height: 20px; } }
+    height: 20px; }
+  .text-right {
+    text-align: center; } }
 
 .vsl-logo {
   max-width: 350px; }
