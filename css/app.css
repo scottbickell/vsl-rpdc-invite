@@ -96,20 +96,6 @@ th.large-2 {
 th.large-2.first {
   padding-left: 16px; }
 
-th.large-2.last {
-  padding-right: 16px; }
-
-th.large-3 {
-  width: 134px;
-  padding-left: 8px;
-  padding-right: 8px; }
-
-th.large-3.first {
-  padding-left: 16px; }
-
-th.large-3.last {
-  padding-right: 16px; }
-
 th.large-4 {
   width: 184px;
   padding-left: 8px;
@@ -118,19 +104,8 @@ th.large-4 {
 th.large-4.first {
   padding-left: 16px; }
 
-th.large-4.last {
-  padding-right: 16px; }
-
 th.large-4 center {
   min-width: 152px; }
-
-th.large-5 {
-  width: 234px;
-  padding-left: 8px;
-  padding-right: 8px; }
-
-th.large-5.last {
-  padding-right: 16px; }
 
 th.large-6 {
   width: 284px;
@@ -143,49 +118,18 @@ th.large-6.first {
 th.large-6.last {
   padding-right: 16px; }
 
-.collapse > tbody > tr > th.large-6 {
-  padding-right: 0;
-  padding-left: 0;
-  width: 300px; }
-
-.collapse th.large-6.first,
-.collapse th.large-6.last {
-  width: 308px; }
-
-th.large-7 {
-  width: 334px;
-  padding-left: 8px;
-  padding-right: 8px; }
-
-th.large-7.first {
-  padding-left: 16px; }
-
 th.large-8 {
   width: 384px;
   padding-left: 8px;
   padding-right: 8px; }
 
-th.large-8.first {
-  padding-left: 16px; }
-
 th.large-8.last {
   padding-right: 16px; }
-
-th.large-9 {
-  width: 434px;
-  padding-left: 8px;
-  padding-right: 8px; }
-
-th.large-9.first {
-  padding-left: 16px; }
 
 th.large-10 {
   width: 484px;
   padding-left: 8px;
   padding-right: 8px; }
-
-th.large-10.first {
-  padding-left: 16px; }
 
 th.large-10.last {
   padding-right: 16px; }
@@ -249,7 +193,6 @@ body,
 table.body,
 h1,
 h2,
-h3,
 h4,
 h5,
 p,
@@ -267,7 +210,6 @@ a {
 
 h1,
 h2,
-h3,
 h4,
 h5 {
   color: inherit;
@@ -282,9 +224,6 @@ h1 {
 
 h2 {
   font-size: 30px; }
-
-h3 {
-  font-size: 28px; }
 
 h4 {
   font-size: 24px; }
@@ -325,45 +264,6 @@ span.invisible-previewline {
   max-width: 0px;
   opacity: 0;
   overflow: hidden; }
-
-table.button {
-  width: auto;
-  margin: 0 0 16px 0;
-  Margin: 0 0 16px 0; }
-  table.button table td {
-    text-align: left;
-    color: #fefefe;
-    background: #76bd22;
-    border: 2px solid #76bd22; }
-    table.button table td a {
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: 16px;
-      font-weight: bold;
-      color: #fefefe;
-      text-decoration: none;
-      display: inline-block;
-      padding: 8px 16px 8px 16px;
-      border: 0 solid #76bd22;
-      border-radius: 3px; }
-  table.button.radius table td {
-    border-radius: 3px;
-    border: none; }
-
-table.button:hover table tr td a,
-table.button:active table tr td a,
-table.button table tr td a:visited {
-  color: #fefefe; }
-
-table.button:hover table td,
-table.button:visited table td,
-table.button:active table td {
-  background: #5b921a;
-  color: #fefefe; }
-
-table.button:hover table a,
-table.button:visited table a,
-table.button:active table a {
-  border: 0 solid #5b921a; }
 
 @media only screen and (max-width: 616px) {
   table.body img {
@@ -410,17 +310,8 @@ a, a:visited, a:hover {
   font-weight: normal;
   color: #005587; }
 
-.vsl-blue-dark {
-  color: #005587;
-  font-size: 18px;
-  line-height: 20px; }
-
 .text-right {
   text-align: right; }
-
-table.button table td a {
-  letter-spacing: 1px;
-  text-align: center; }
 
 .footer {
   background: #4a4f55; }
@@ -447,9 +338,6 @@ table.button table td a {
 .signature img {
   max-width: 200px; }
 
-th.showit table tbody tr th {
-  background: #e5e5e5; }
-
 .social-media {
   background: #f3f3f3; }
 
@@ -459,37 +347,29 @@ th.showit table tbody tr th {
   height: 32px;
   margin: 0 2px; }
 
+.preview-subject {
+  font-family: monospace;
+  border: 2px dashed orange;
+  padding: 10px;
+  background: #ffffff; }
+
 @media only screen and (max-width: 616px) {
   .social-media img {
     width: 42px !important;
     height: 42px !important;
     margin: 0 5px; }
-  .mobile-spacer {
-    height: 20px; }
   .text-right {
     text-align: center; } }
 
 .vsl-logo {
   max-width: 350px; }
 
-table.button table td {
-  text-align: center !important; }
-
 .no-bottom-padding {
   padding-bottom: 0 !important; }
-
-.no-left-padding {
-  padding-left: 0 !important; }
 
 h2 {
   font-size: 20px;
   color: #009bdf; }
-
-h3 {
-  font-size: 28px;
-  line-height: 30px;
-  color: #009bdf;
-  font-weight: normal; }
 
 h4 {
   font-size: 22px;
@@ -507,19 +387,9 @@ h5 {
   margin: 0;
   padding: 0; }
 
-sup {
-  font-size: 12px;
-  line-height: 12px; }
-
 h1 {
   color: #000000;
   font-size: 26px; }
-
-.blue-light-background {
-  background: #eff8fc; }
-
-sup {
-  margin-left: 3px; }
 
 .smaller-img {
   width: 120px;
